@@ -33,5 +33,16 @@ class ViewController: NSViewController {
             view.showsNodeCount = true
         }
     }
+    
+    override func didMove(to view: SKView) {
+        bubbleTextures.append(SKTexture(imageNamed: "bubbleBlue"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubbleCyan"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubbleGray"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubbleGreen"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubbleOrange"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubblePink"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubblePurple"))
+        bubbleTextures.append(SKTexture(imageNamed: "bubbleRed"))
+    }
 }
 

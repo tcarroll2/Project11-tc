@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		FA38D2CE2454D17A000CD180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D2CD2454D17A000CD180 /* AppDelegate.swift */; };
 		FA38D2D02454D17A000CD180 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2CF2454D17A000CD180 /* GameScene.sks */; };
-		FA38D2D22454D17A000CD180 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2D12454D17A000CD180 /* Actions.sks */; };
 		FA38D2D42454D17A000CD180 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D2D32454D17A000CD180 /* GameScene.swift */; };
 		FA38D2D62454D17A000CD180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D2D52454D17A000CD180 /* ViewController.swift */; };
 		FA38D2D82454D17A000CD180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2D72454D17A000CD180 /* Assets.xcassets */; };
 		FA38D2DB2454D17A000CD180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2D92454D17A000CD180 /* Main.storyboard */; };
+		FA38D2E42454D302000CD180 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2E32454D302000CD180 /* pop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA38D2CA2454D17A000CD180 /* Project11-tc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project11-tc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA38D2CD2454D17A000CD180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA38D2CF2454D17A000CD180 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FA38D2D12454D17A000CD180 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FA38D2D32454D17A000CD180 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FA38D2D52454D17A000CD180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA38D2D72454D17A000CD180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA38D2DA2454D17A000CD180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA38D2DC2454D17A000CD180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA38D2DD2454D17A000CD180 /* Project11_tc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project11_tc.entitlements; sourceTree = "<group>"; };
+		FA38D2E32454D302000CD180 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +61,12 @@
 			children = (
 				FA38D2CD2454D17A000CD180 /* AppDelegate.swift */,
 				FA38D2CF2454D17A000CD180 /* GameScene.sks */,
-				FA38D2D12454D17A000CD180 /* Actions.sks */,
 				FA38D2D32454D17A000CD180 /* GameScene.swift */,
 				FA38D2D52454D17A000CD180 /* ViewController.swift */,
 				FA38D2D72454D17A000CD180 /* Assets.xcassets */,
 				FA38D2D92454D17A000CD180 /* Main.storyboard */,
 				FA38D2DC2454D17A000CD180 /* Info.plist */,
+				FA38D2E32454D302000CD180 /* pop.wav */,
 				FA38D2DD2454D17A000CD180 /* Project11_tc.entitlements */,
 			);
 			path = "Project11-tc";
@@ -132,7 +132,7 @@
 			files = (
 				FA38D2D02454D17A000CD180 /* GameScene.sks in Resources */,
 				FA38D2D82454D17A000CD180 /* Assets.xcassets in Resources */,
-				FA38D2D22454D17A000CD180 /* Actions.sks in Resources */,
+				FA38D2E42454D302000CD180 /* pop.wav in Resources */,
 				FA38D2DB2454D17A000CD180 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
