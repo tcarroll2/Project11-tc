@@ -14,6 +14,7 @@
 		FA38D2D82454D17A000CD180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2D72454D17A000CD180 /* Assets.xcassets */; };
 		FA38D2DB2454D17A000CD180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2D92454D17A000CD180 /* Main.storyboard */; };
 		FA38D2E42454D302000CD180 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2E32454D302000CD180 /* pop.wav */; };
+		FA38D2E62454D668000CD180 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA38D2E52454D668000CD180 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FA38D2DC2454D17A000CD180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA38D2DD2454D17A000CD180 /* Project11_tc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Project11_tc.entitlements; sourceTree = "<group>"; };
 		FA38D2E32454D302000CD180 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		FA38D2E52454D668000CD180 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		FA38D2C12454D17A000CD180 = {
 			isa = PBXGroup;
 			children = (
+				FA38D2E52454D668000CD180 /* README.md */,
 				FA38D2CC2454D17A000CD180 /* Project11-tc */,
 				FA38D2CB2454D17A000CD180 /* Products */,
 			);
@@ -132,6 +135,7 @@
 			files = (
 				FA38D2D02454D17A000CD180 /* GameScene.sks in Resources */,
 				FA38D2D82454D17A000CD180 /* Assets.xcassets in Resources */,
+				FA38D2E62454D668000CD180 /* README.md in Resources */,
 				FA38D2E42454D302000CD180 /* pop.wav in Resources */,
 				FA38D2DB2454D17A000CD180 /* Main.storyboard in Resources */,
 			);
